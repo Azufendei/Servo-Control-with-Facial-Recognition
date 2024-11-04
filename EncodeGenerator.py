@@ -9,8 +9,8 @@ from firebase_admin import storage
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL':"https://security-with-face-recognition-default-rtdb.firebaseio.com/",
-    'storageBucket': "security-with-face-recognition.appspot.com"
+    'databaseURL':"", #add your url here
+    'storageBucket': "" #add your storage bucket here
 })
 
 folderPath = 'Images'
