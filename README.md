@@ -1,8 +1,8 @@
-#Servo Control with Facial Recognition
+# Servo Control with Facial Recognition
 
 An AI-powered computer vision project that performs real-time face recognition and automatically controls a servo motor using Arduino. The system detects and recognizes a person through a webcam and triggers a servo action, demonstrating integration between AI, IoT, and hardware automation.
 
-##Overview
+## Overview
 
 This project combines Computer Vision, Machine Learning, and IoT hardware to create a smart recognition-based automation system. When a recognized face appears in front of the camera, the system identifies the person and sends a command to Arduino UNO to rotate a servo motor.
 
@@ -16,7 +16,7 @@ Security monitoring
 
 Smart home automation
 
-##Features
+## Features
 
 Real-time face detection and recognition
 
@@ -30,8 +30,8 @@ Face encoding for faster recognition
 
 Camera-based live video processing
 
-##Technologies Used
-##Programming
+## Technologies Used
+## Programming
 
 Python
 
@@ -63,7 +63,7 @@ CVZone
 
 Pickle (for encoding storage)
 
-##Project Structure
+## Project Structure
 Servo-Control-with-Facial-Recognition
 │
 ├── main.py
@@ -76,7 +76,7 @@ Servo-Control-with-Facial-Recognition
 │   Uploads personnel information to Firebase database.
 │
 └── README.md
-##How It Works
+## How It Works
 
 Face images are collected and stored in a dataset.
 
@@ -94,10 +94,12 @@ Sends a signal to Arduino
 
 Arduino rotates the servo motor
 
-##Installation
+## Installation
+
 1. Clone the Repository
 git clone https://github.com/yourusername/Servo-Control-with-Facial-Recognition.git
 cd Servo-Control-with-Facial-Recognition
+
 2. Install Dependencies
 pip install opencv-python
 pip install face-recognition
@@ -105,6 +107,7 @@ pip install numpy
 pip install firebase-admin
 pip install cvzone
 pip install pyfirmata
+
 3. Configure Firebase
 
 Add your Firebase credentials:
@@ -115,6 +118,7 @@ Update the following in the scripts:
 
 databaseURL
 storageBucket
+
 4. Connect Arduino
 
 Connect Arduino UNO to your computer
@@ -124,6 +128,7 @@ Update the port in main.py
 Example:
 
 port = 'COM5'
+
 5. Run the System
 
 Generate face encodings:
@@ -138,7 +143,7 @@ Start the recognition system:
 
 python main.py
 
-##Hardware Requirements
+## Hardware Requirements
 
 Arduino UNO
 
