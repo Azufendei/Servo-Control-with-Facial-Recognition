@@ -65,17 +65,29 @@ Pickle (for encoding storage)
 
 ## Project Structure
 Servo-Control-with-Facial-Recognition
+
 │
+
 ├── main.py
+
 │   Runs the real-time face recognition and controls the servo motor.
+
 │
+
 ├── EncodeGenerator.py
+
 │   Generates facial encodings and uploads images to Firebase.
+
 │
+
 ├── DataToDatabase.py
+
 │   Uploads personnel information to Firebase database.
+
 │
+
 └── README.md
+
 ## How It Works
 
 Face images are collected and stored in a dataset.
