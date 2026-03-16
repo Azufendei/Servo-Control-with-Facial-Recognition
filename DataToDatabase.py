@@ -5,5 +5,4 @@ cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
     'databaseURL':"" #add your url here
 })
-
 ref = db.reference('Personnel')
